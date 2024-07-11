@@ -1,0 +1,9 @@
+echo enter a number 
+read num
+Fact = 1
+while [ $num -gt 1 ]
+do
+Fact = $((Fact * num))
+num = $((num - 1))
+done
+echo $Fact
